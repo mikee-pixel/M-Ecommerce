@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.1em;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 1.1em;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.1em;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.1em;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+h5{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.1em;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+h6{
+    font-size: 16px;
+    font-size: 500;
+    line-height: 1.1em;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.1em;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.row-container{
+    width: 80%;
+    max-width: 1080px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section-p1{
+    margin-top: 50px;
+}
+
+
+
+/*BUTTONS STYLE*/
+button.btn-white{
+    background-color: white;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.6s;
+
+}
+#banner .btn-white:hover {
+    background-color: #088178;
+    color: white;
+}
+
+button.btn-transparent{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: 0.6s;
+}
+
+/*BUTTONS STYLE*/
+
+
+/*HEADER SECTION*/
+#header{
+    width: 100%;
+    height: 15vh;
+    background-color: #e3e6f3;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 1px 10px #088178;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#header .row-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#header .logo-container{
+    width: 20%;
+}
+
+.logo-container a {
+    display: flex;
+    align-items: center;
+}
+
+#header .logo-container img{
+    width: 125px;
+}
+
+/* #header .burger-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+/* #header .burger-menu .bar-item{
+    width: 25px;
+    height: 2px;
+    background-color: #23262B;
+    margin-bottom: 2px;
+} */
+
+#header .menu-item-container ul{
+    display: flex;
+    list-style-type: none;
+}
+
+#header .menu-item-container ul li{
+    padding: 5px 20px;
+}
+
+#header .menu-item-container ul li a{
+    text-decoration: none;
+    color: #23262B;
+    transition: ease-in-out 0.2s;
+    font-size: 16px;
+}
+
+#header .menu-item-container ul li a:hover{
+    border-bottom: 3px solid #088178;
+    
+}
+
+#header .menu-item-container ul li .cart-icon:hover{
+    border-bottom: none !important;
+}
+
+#header .burger-menu{
+    display: none;
+    /* flex-direction: row; */
+}
+
+#header .burger-menu .fa-solid{
+    font-size: 40px;
+}
+#header .burger-menu .cart-icon{
+    margin-right: 30px;
+}
+
+#header .burger-menu i{
+    color: #23262B;;
+}
+
+#header #close-btn{
+    display: none;
+}
+/*HEADER SECTION*/
+
+/*NEWS LETTER*/
+#newsletter{
+    width: 100%;
+    height: 25vh;
+    background-color: #1B3366;
+    display: flex;
+    align-items: center;
+    background-image: url('assets/banner/b14.png');
+    background-repeat: no-repeat;
+    background-position: left 20% top 45%;
+}
+
+#newsletter .row-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#newsletter h3{
+    color: white;
+}
+
+#newsletter p{
+    color: rgba(146, 172, 229, 0.7);
+    font-weight: 500;
+}
+
+#newsletter p span{
+    color: #BEC057;
+}
+
+#newsletter .form-newsletter{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+#newsletter input{
+    font-size: 16px;
+    padding: 15px;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    width: 65%;
+}
+
+#newsletter button{
+    color: white;
+    background-color: #088178;
+    border: none;
+    font-size: 16px;
+    padding: 15px 20px;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+    font-weight: 500;
+}
+/*NEWS LETTER*/
+
+/*FOOTER*/
+#footer .row-container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+#footer .col1{
+    width: 35%;
+}
+
+#footer .txt-style{
+    color: #23262B;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+#footer a.txt-style{
+    text-decoration: none;
+    margin-bottom: 5px;
+    transition: 0.4s ease-in-out;
+}
+
+#footer a.txt-style:hover{
+    color: #088178;
+    font-weight: 400;
+}
+
+#footer .col1 span{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#footer .fa-brands{
+    margin-right: 5px;
+    color: #088178;
+    font-size: 16px;
+}
+
+#footer .footer-container{
+    display: flex;
+    flex-direction: column;
+}
+
+#footer .brand-footer-logo{
+    width: 125px;
+}
+
+#footer .col2,
+#footer .col3{
+    width: 15%;
+    margin: 0 20px;
+}
+
+#footer .col4{
+    width: 25%;
+}
+
+#footer .download{
+    display: flex;
+    flex-direction: row;
+}
+
+#footer .download img{
+    border: 1px solid #088178;
+    border-radius: 5px;
+    width: 120px;
+    margin-right: 5px;
+    margin-top: 5px;
+    
+}
+
+#footer .payment{
+    width: 100px;
+    margin-top: 5px;
+}
+/*FOOTER*/
+
+
+@media screen and (max-width: 1279px){
+    #header{
+        height: 10vh;
+    }
+}
+@media screen and (min-width: 912px) and (max-width: 1279px){
+    #newsletter{
+        height: 20vh;
+    }
+}
+@media screen and (max-width: 1024px){
+    #newsletter .form-newsletter{
+        justify-content: center;
+        width: 65%;
+    }
+}
+@media screen and (max-width: 1023px){
+    #header .menu-item-container {
+        /* display: none; */
+        position: fixed;
+        top: 0;
+        right: -500px;
+        background-color: white;
+        height: 100vh;
+        padding: 100px 10px 10px 10px;
+        width: 300px;
+        transition: 0.5s linear all;
+        
+    }
+    #header .menu-item-container.active{
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
+    #header ul{
+        display: flex;
+        flex-direction: column;
+    }
+    #header .menu-item-container ul li{
+        padding: 15px 20px;
+    }
+    #header .menu-item-container ul li a{
+        font-size: 25px;
+    }
+    #header .burger-menu{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    #header .burger-menu .fa-solid{
+        font-size: 30px;
+    }
+    #header #close-btn{
+        display: block;
+        position: absolute;
+        top: 35px;
+        left: 30px;
+        font-size: 20px;
+    }
+    #newsletter input{
+        width: 70%;
+    }
+    #footer .row-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 20px;
+        row-gap: 40px;
+    }
+    #footer .col1,
+    #footer .col2,
+    #footer .col3,
+    #footer .col4{
+        width: 100%;
+    }
+    #footer .col2, #footer .col3 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #footer .col2 {
+        margin-top: 85px;
+    }
+}
+@media screen and (max-width: 767px){
+    #footer .row-container{
+        grid-template-columns: auto;
+        justify-content: flex-start;
+    }
+    #footer .col2 {
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width: 540px){
+    h1{
+        font-size: 37px;
+    }
+    h2{
+        font-size: 32px;
+    }
+    h3{
+        font-size: 27px;
+    }
+    h4{
+        font-size: 18px;
+    }
+    h5{
+        font-size: 16px;
+    }
+    h6{
+        font-size: 15px;
+    }
+    p{
+        font-size: 15px;
+    }
+    #header .menu-item-container{
+        width: 200px;
+    }
+    #header .logo-container img{
+        width: 100px;
+    }
+    #header .burger-menu .fa-solid{
+        font-size: 25px;
+    }
+    #header .menu-item-container ul li a {
+        font-size: 16px;
+    }
+    #newsletter{
+        height: 35vh;
+    }
+    #newsletter .form-newsletter{
+        width: 100%;
+    }
+    #newsletter input{
+        padding: 10px;
+        font-size: 14px;
+    }
+    #newsletter button{
+        font-size: 14px;
+        padding: 10px 10px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    #newsletter {
+        height: 45vh;
+    }
+    #newsletter input {
+        width: 65%;
+    }
+}

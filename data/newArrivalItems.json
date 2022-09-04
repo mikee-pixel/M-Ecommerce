@@ -1,0 +1,65 @@
+[{
+    "itemImg": "assets/products/n1.jpg",
+    "imgAlt": "",
+    "itemBrand": "addidas",
+    "itemName": "Scruncho",
+    "itemStar": ["<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>"],
+    "itemPrice": 500
+},
+{
+    "itemImg": "assets/products/n2.jpg",
+    "imgAlt": "",
+    "itemBrand": "addidas",
+    "itemName": "Snap It",
+    "itemStar": ["<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>"],
+    "itemPrice": 670
+},
+{
+    "itemImg": "assets/products/n3.jpg",
+    "imgAlt": "",
+    "itemBrand": "addidas",
+    "itemName": "Stickem",
+    "itemStar": ["<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>"],
+    "itemPrice": 980
+},
+{
+    "itemImg": "assets/products/n4.jpg",
+    "imgAlt": "",
+    "itemBrand": "addidas",
+    "itemName": "Villafy",
+    "itemStar": ["<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>"],
+    "itemPrice": 680
+},
+{
+    "itemImg": "assets/products/n5.jpg",
+    "imgAlt": "",
+    "itemBrand": "addidas",
+    "itemName": "Gymr Kit",
+    "itemStar": ["<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>"],
+    "itemPrice": 700
+},
+{
+    "itemImg": "assets/products/n6.jpg",
+    "imgAlt": "",
+    "itemBrand": "addidas",
+    "itemName": "Terra Shsave",
+    "itemStar": ["<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>"],
+    "itemPrice": 1200
+},
+{
+    "itemImg": "assets/products/n7.jpg",
+    "imgAlt": "",
+    "itemBrand": "addidas",
+    "itemName": "Vortex Bottle",
+    "itemStar": ["<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>"],
+    "itemPrice": 900
+},
+{
+    "itemImg": "assets/products/n8.jpg",
+    "imgAlt": "",
+    "itemBrand": "addidas",
+    "itemName": "ONEset",
+    "itemStar": ["<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>"],
+    "itemPrice": 550
+}
+]

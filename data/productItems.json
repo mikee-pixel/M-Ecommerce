@@ -1,0 +1,57 @@
+[{
+	"itemImg": "assets/products/f1.jpg",
+	"imgAlt": "",
+	"itemBrand": "addidas",
+	"itemName": "Orbital Keys",
+	"itemStar": ["<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>"],
+	"itemPrice": 500
+}, {
+	"itemImg": "assets/products/f2.jpg",
+	"imgAlt": "",
+	"itemBrand": "addidas",
+	"itemName": "XPress Bottle",
+	"itemStar": ["<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>"],
+	"itemPrice": 600
+}, {
+	"itemImg": "assets/products/f3.jpg",
+	"imgAlt": "",
+	"itemBrand": "addidas",
+	"itemName": "InstaPress",
+	"itemStar": ["<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>"],
+	"itemPrice": 700
+}, {
+	"itemImg": "assets/products/f4.jpg",
+	"imgAlt": "",
+	"itemBrand": "addidas",
+	"itemName": "Uno Wear",
+	"itemStar": ["<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>"],
+	"itemPrice": 550
+}, {
+	"itemImg": "assets/products/f5.jpg",
+	"imgAlt": "",
+	"itemBrand": "addidas",
+	"itemName": "Allure Kit",
+	"itemStar": ["<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>"],
+	"itemPrice": 900
+}, {
+	"itemImg": "assets/products/f6.jpg",
+	"imgAlt": "",
+	"itemBrand": "addidas",
+	"itemName": "Swish Wallet",
+	"itemStar": ["<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>"],
+	"itemPrice": 800
+}, {
+	"itemImg": "assets/products/f7.jpg",
+	"imgAlt": "",
+	"itemBrand": "addidas",
+	"itemName": "Onovo Supply",
+	"itemStar": ["<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>"],
+	"itemPrice": 600
+}, {
+	"itemImg": "assets/products/f8.jpg",
+	"imgAlt": "",
+	"itemBrand": "addidas",
+	"itemName": "Sharpy Knife",
+	"itemStar": ["<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>", "<i class=\"fa-solid fa-star\"></i>"],
+	"itemPrice": 700
+}]

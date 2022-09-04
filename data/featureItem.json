@@ -1,0 +1,21 @@
+[{
+	"imgUrl": "assets/features/f1.png",
+	"titleFeature": "Free Shipping",
+	"imgAlt": "Free Shipping"
+}, {
+	"imgUrl": "assets/features/f2.png",
+	"titleFeature": "Online Order",
+	"imgAlt": "Online Order"
+}, {
+	"imgUrl": "assets/features/f3.png",
+	"titleFeature": "Save Money",
+	"imgAlt": "Save Money"
+}, {
+	"imgUrl": "assets/features/f4.png",
+	"titleFeature": "Promotions",
+	"imgAlt": "Promotions"
+}, {
+	"imgUrl": "assets/features/f5.png",
+	"titleFeature": "Happy Selling",
+	"imgAlt": "Happy Selling"
+}]

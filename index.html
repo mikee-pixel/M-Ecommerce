@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="mainModule">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--START CSS STYLES-->
+    <link rel="stylesheet" href="styles/main-style.css">
+    <link rel="stylesheet" href="styles/common-style.css">
+    <!--END CSS STYLES-->
+    <!--START JS-->
+    <script src="app/lib/angular.min.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/lib/angular-sanitize.js"></script>
+    <script src="app/lib/angular-route.min.js"></script>
+    <script src="app/lib/angular-animate.min.js"></script>
+    
+    
+    <script src="https://kit.fontawesome.com/30daa11e3c.js" crossorigin="anonymous"></script>
+    <!--END JS-->
+</head>
+<body>
+    <section id="header" ng-include="'header.html'"></section>
+    <main ng-view></main>
+    <section id="hero-banner">
+        <div class="row-container">
+            <div class="hero-content-container">
+                <h4>Trade-in-offer</h4>
+                <h1>Super value deals<br class="txt-line-break-v1"> <span class="change-color">On all products</span></h1>
+                <p>Save more with coupons & up to 70% off!</p>
+                <button>Shop Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" ng-controller="featuresModuleController">
+        <div class="row-container section-p1">
+            <div class="features-content-container">
+                <div class="feature-item" ng-repeat="featureItem in featureItems">
+                    <div class="feature-image">
+                        <img src="{{featureItem.imgUrl}}" alt="{{featureItem.imgAlt}}">
+                    </div>
+                    <div class="feature-title">
+                        <h5>{{featureItem.titleFeature}}</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products" ng-controller="featuredProductsController">
+        <div class="row-container section-p1">
+            <div class="product-content-container">
+                <div class="title-container">
+                    <h2>FEATURES PRODUCTS</h2>
+                    <p>Summer Collection New Modern Design</p>
+                </div>
+                <div class="product-lists">
+                    <div class="product-item" ng-repeat="productItem in productItems">
+                        <div class="product-img">
+                            <img src="{{productItem.itemImg}}" alt="">
+                        </div>
+                        <div class="product-desc">
+                            <span>{{productItem.itemBrand}}</span>
+                            <h5>{{productItem.itemName}}</h5>
+                            <div class="reviews-star">
+                                <span ng-bind-html="productItem.itemStar"></span>
+                                
+                            </div>
+                            <div class="price">
+                                <i class="fa-solid fa-peso-sign"></i>{{productItem.itemPrice}}
+                            </div>
+                            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="banner">
+        <div class="container section-p1">
+            <h6>Repair Services</h6>
+            <h2>Up to <span>70% Off</span> - All t-Shirt and Accessories</h2>
+            <button class="btn-white">Explore More</button>
+        </div>
+    </section>
+
+    <section class="products" ng-controller="newArrivalController">
+        <div class="row-container section-p1">
+            <div class="product-content-container">
+                <div class="title-container">
+                    <h2>New Arrivals</h2>
+                    <p>Summer Collection New Modern Design</p>
+                </div>
+                <div class="product-lists">
+                    <div class="product-item" ng-repeat="newArrivalItem in newArrivalItems">
+                        <div class="product-img">
+                            <img src="{{newArrivalItem.itemImg}}" alt="{{newArrivalItem.imgAlt}}">
+                        </div>
+                        <div class="product-desc">
+                            <span>{{newArrivalItem.itemBrand}}</span>
+                            <h5>{{newArrivalItem.itemName}}</h5>
+                            <div class="reviews-star">
+                                <span ng-bind-html="newArrivalItem.itemStar"></span>
+                            </div>
+                            <div class="price">
+                                <i class="fa-solid fa-peso-sign"></i>{{newArrivalItem.itemPrice}}
+                            </div>
+                            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="box-cards" ng-include="'components/box-card.html'"></section>
+
+    <section id="newsletter" class="section-p1" ng-include="'components/news-letter.html'"></section>
+
+    <section id="footer" ng-include="'footer.html'"></section>
+</body>
+
+</html>
